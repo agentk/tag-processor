@@ -1,0 +1,19 @@
+{
+    "name": "agentk/tag-processor",
+    "description": "Pinboard Tag Processor",
+    "authors": [
+        {
+            "name": "Karl Bowden",
+            "email": "karlbowden@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Agentk\\TagProcessor\\": "src/"
+        }
+    },
+    "require": {
+        "kijin/pinboard-api": "dev-master",
+        "vlucas/phpdotenv": "~1.0"
+    }
+}
